@@ -10,4 +10,6 @@ public class Rectangle extends Figure{
         this.upperLeft = upperLeft;
         this.bottomRight = bottomRight;
     }
+
+    public Rectangle(){}
 }
