@@ -12,4 +12,9 @@ public class Rectangle extends Figure{
     }
 
     public Rectangle(){}
+
+    @Override
+    public double perimeter() {
+        return 0;
+    }
 }
