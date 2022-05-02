@@ -12,13 +12,12 @@ public class Rectangle extends Figure {
     }
 
 
-    public Rectangle(){}
+    public Rectangle() {
+    }
 
     @Override
     public double perimeter() {
-        return 0;
-
-    public Rectangle() {
+        return 2 * (Math.abs(upperLeft.getX() - bottomRight.getX())) + 2 * (Math.abs(upperLeft.getY() - bottomRight.getY()));
     }
 
     @Override
@@ -27,3 +26,4 @@ public class Rectangle extends Figure {
 
     }
 }
+
