@@ -1,0 +1,2 @@
+# SaMaTa
+Exercício de GIT
