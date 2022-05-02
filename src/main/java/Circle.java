@@ -8,5 +8,5 @@ public class Circle extends Figure{
         this.center = center;
         this.radius = radius;
     }
-    
+
 }
