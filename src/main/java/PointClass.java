@@ -10,4 +10,19 @@ public class PointClass {
         this.coordY = coordY;
     }
 
+    public void setCoordX(double coordX) {
+        this.coordX = coordX;
+    }
+
+    public void setCoordY(double coordY) {
+        this.coordY = coordY;
+    }
+
+    public double coordX() {
+        return coordX;
+    }
+
+    public double coordY() {
+        return coordY;
+    }
 }
