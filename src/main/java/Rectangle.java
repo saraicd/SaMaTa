@@ -2,7 +2,7 @@ package main.java;
 
 import java.awt.*;
 
-public class Rectangle extends Figure{
+public class Rectangle extends Figure {
     private Point upperLeft;
     private Point bottomRight;
 
@@ -11,10 +11,19 @@ public class Rectangle extends Figure{
         this.bottomRight = bottomRight;
     }
 
+
     public Rectangle(){}
 
     @Override
     public double perimeter() {
         return 0;
+
+    public Rectangle() {
+    }
+
+    @Override
+    public double area() {
+        return Math.abs(upperLeft.getX() - bottomRight.getX()) * Math.abs(upperLeft.getY() - bottomRight.getY());
+
     }
 }
