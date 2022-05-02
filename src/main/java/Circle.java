@@ -9,4 +9,8 @@ public class Circle extends Figure{
         this.radius = radius;
     }
 
+    @Override
+    public double perimeter() {
+        return 2 * Math.PI * this.radius;
+    }
 }

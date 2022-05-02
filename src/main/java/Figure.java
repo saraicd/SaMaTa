@@ -3,6 +3,7 @@ package main.java;
 public abstract class Figure {
     String color;
 
+
     public String getColor() {
         return color;
     }
@@ -10,4 +11,7 @@ public abstract class Figure {
     public void setColor(String color) {
         this.color = color;
     }
+
+    public abstract double perimeter();
+
 }
